@@ -13,7 +13,7 @@ const About=()=>{
                 </div>
                 <div className="left" lang='en'>
                     <div className="subtitle"  >
-                        <p className='text-align-center'>Hi, I am snehal. Nice to meet you </p>
+                        <p className='text-align-center'>Hi, I am snehal. Nice to meet you! </p>
                         <p> I am frontend developer.  Currently looking for new opportunities. seeking employment with company that offeres positive atmosphere to learn and implement skills and technologies
                             for development of Organization. Able to effectively self-manage during independent projects, as well as collaborate as part of a team.</p>
                         <p>
