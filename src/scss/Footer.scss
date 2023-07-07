@@ -1,0 +1,48 @@
+.footer{
+    width: 100%;
+    background-color: black;
+    font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+    h1{
+        font-size: clamp(40px, 5vw, 60px);
+    }
+}
+
+.footer-container{
+    max-width: 1140px;
+    margin: auto;
+    display: contents;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 40px;
+    @media (min-width: #{$screen-sm-min}) {
+        display: grid;
+    }
+    .left,
+    .right{
+        margin: 0 20px;
+    }
+}
+.copyrights{
+    bottom: 0px;
+    width: -webkit-fill-available;
+    margin-top: 3rem;
+    height: 34px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(19, 19, 19,0.8);         
+    color: white;
+    margin-top: 10vh;
+}
+
+.contactContent{
+    color: white;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: larger;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    text-align:center;
+    @media (min-width: #{$screen-sm-min}) {
+        margin:'4rem 23rem';
+        font-size: 2rem;
+    }
+}

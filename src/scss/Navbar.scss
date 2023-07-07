@@ -1,0 +1,61 @@
+$screen-sm-min:768px;
+$width: var(--width);
+.MuiAppBar-root{
+    position: fixed !important;
+    z-index: 1 !important;
+
+}
+
+.MuiPopover-root{
+    background-color: black;   
+    height: 35vh;
+    // --height: -webkit-fill-available;;
+}
+.MuiPopover-paper{
+    @media (max-width: #{$screen-sm-min}) {
+       top: 0 !important;
+       left: 0 !important;
+       min-width: 100% !important;
+       max-height: 100% !important;
+       background-color: black  !important;
+    }
+}
+.MuiList-root{
+    @media (max-width: #{$screen-sm-min}) {
+        display: grid;
+    }
+}
+.MuiList-root{
+    padding:0 !important;
+}
+.MuiMenuItem-root{
+    @media (max-width: #{$screen-sm-min}) {
+        background-color: black!important;
+    }
+
+color: white !important;
+justify-content: center !important;
+ :hover{
+    color: #e38007 !important;
+}
+}
+MuiMenuItem-root {
+    margin: 0 23px;
+}
+.desktopDisplay{
+    display: flex;
+    justify-content: space-around;
+}
+.portfolio{
+    flex-grow: 18;
+    @media (min-width: #{$screen-sm-min}) {
+        flex-grow: 3;
+    }
+    .MuiTypography-root{
+        display: flex;
+        align-items: center;
+    }
+}
+.logoname{
+    display: flex;
+}

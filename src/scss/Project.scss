@@ -1,0 +1,39 @@
+.projects{
+    
+
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    @media (min-width: #{$screen-sm-min}) {
+        padding: 5rem;
+        }
+}
+.project-card{
+        width: 250px;  
+        height: 250px;
+        background-color: #112240;
+        border: 1px solid #112240;
+        border-radius: 12px;
+        padding: 20px;
+        text-align: center;
+        align-items: center;
+        display: grid;
+        margin: 10px;
+        min-width: 250px;
+}
+.project-card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.card-container{
+    display: flex;
+    
+    margin-top: 3rem;
+    overflow: auto;
+    max-width: 500px;
+    
+    @media (min-width: #{$screen-sm-min}) {
+        justify-content: center;
+        max-width: none;
+    }
+    
+}

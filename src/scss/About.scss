@@ -1,0 +1,130 @@
+.about{
+    
+    margin: auto;
+    display: contents;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 40px;
+    height: 57vh;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    @media (min-width: #{$screen-sm-tablet}) {
+        display: grid;
+        max-width: 1140px;
+        font-size: 24px;
+    }
+    .left,
+    .right{
+        margin: 30px 20px;
+    }
+    .left{
+        text-align: center;
+        word-break: break-word;
+        @media (min-width: #{$screen-sm-tablet}) {
+        padding-top: 20px;
+        max-width: 45vw;
+        }
+    }
+
+}
+.my-image{
+    width: 200px;
+    height: 200px;
+    
+    
+    border: 6px solid $focus-color;
+    background-color: black;
+    border-radius: 50%;
+    outline: 10px solid $background;
+    box-shadow:
+    0 0 0 10px $focus-color;
+    @media (min-width: #{$screen-sm-tablet}) {
+        width: 350px;
+        height: 350px;
+        transform: translate(-20px);
+        transform: translate(86px, 10%);
+        border-radius: 0%;
+    }
+
+}
+.image-div{
+    height: 240px;
+    margin-top: 60px;
+    text-align: center;
+    @media (min-width: #{$screen-sm-tablet}) {
+        height: 360px;
+        text-align: left;
+        margin-top: 0px;
+    }
+    
+}
+.image-div::after{
+    content: "";
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; 
+    transform: translate(35%,-104%);
+    position: relative;
+    background-color: #0e5cde;
+    opacity: 0.2;
+    display: none;
+    @media (min-width: #{$screen-sm-tablet}) {
+        width: 351px;
+        height: 351px;
+        top: 40px;  
+        left: -30px;
+        border-radius: 0;
+    }
+}
+.about-skills-list{
+    display: inline-flex;
+    list-style-type: none;
+    padding-left: 15px;
+    li{
+        min-width: 154px;
+    border: 1px solid $focus-color;
+    margin: 5px;
+    padding: 5px;
+    }
+    flex-wrap: wrap;
+    font-size: large;
+    margin-top: 0px;
+   
+}
+
+.heading-1-medium{
+    font-size: 28px;
+    margin: 0 20px;
+    @media (min-width: #{$screen-sm-tablet}) {
+    margin-left:14rem;
+    font-size: 3rem;
+    }
+    
+}
+
+.section-style{
+    color: $focus-color;
+    font-size: small;
+    border-bottom:1px solid $focus-color;
+    width: 50vw;
+    display: inline-block;
+    @media (min-width: #{$screen-sm-tablet}) {
+        width: 27vw;
+    }
+   
+}
+.technical-skills{
+    .technical-skills-header{
+        @media (min-width: #{$screen-sm-tablet}) {
+            text-align: left;
+            margin-left: 20px;
+            margin-bottom: 10px;
+        }
+    }
+    text-align: center;
+    max-width: 54%;
+    margin: auto;
+    font-size: large;
+    @media (min-width: #{$screen-sm-tablet}) {
+        font-size:  xx-large;
+    }
+}
