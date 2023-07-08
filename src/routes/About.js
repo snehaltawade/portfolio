@@ -14,8 +14,8 @@ const About=()=>{
                 <div className="left" lang='en'>
                     <div className="subtitle"  >
                         <p className='text-align-center'>Hi, I am snehal. Nice to meet you! </p>
-                        <p> I am frontend developer.  Currently looking for new opportunities. seeking employment with company that offeres positive atmosphere to learn and implement skills and technologies
-                            for development of Organization. Able to effectively self-manage during independent projects, as well as collaborate as part of a team.</p>
+                        <p> I am frontend developer. Currently looking for new opportunities. Seeking employment with company that offeres positive atmosphere to learn and implement skills and technologies
+                            for development of organization. Able to effectively self-manage during independent projects, as well as collaborate as part of a team.</p>
                         <p>
                             If you find my profile relevant for your job, do reach out to me :)
                         </p>
