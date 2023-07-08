@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.efaf5f3b.css",
-    "main.js": "/portfolio/static/js/main.305f2542.js",
+    "main.js": "/portfolio/static/js/main.b6e4b888.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/snehal-removebg-preview.png": "/portfolio/static/media/snehal-removebg-preview.a437dc9de762547a0e76.png",
+    "static/media/profilePhoto.jpg": "/portfolio/static/media/profilePhoto.a916817e54a63158de5e.jpg",
     "static/media/homeImage2.jpg": "/portfolio/static/media/homeImage2.cc3be5cafc5117678f11.jpg",
     "static/media/resume.pdf": "/portfolio/static/media/resume.3651716123911c99a5f4.pdf",
     "static/media/SnehalTawade.png": "/portfolio/static/media/SnehalTawade.8b042aab88714b2e14ca.png",
     "index.html": "/portfolio/index.html",
     "main.efaf5f3b.css.map": "/portfolio/static/css/main.efaf5f3b.css.map",
-    "main.305f2542.js.map": "/portfolio/static/js/main.305f2542.js.map",
+    "main.b6e4b888.js.map": "/portfolio/static/js/main.b6e4b888.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.efaf5f3b.css",
-    "static/js/main.305f2542.js"
+    "static/js/main.b6e4b888.js"
   ]
 }
