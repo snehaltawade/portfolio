@@ -1,4 +1,4 @@
-import myimage from '../assets/snehal-removebg-preview.png';
+import myimage from '../assets/profilePhoto.jpg';
 
 const About=()=>{
     return(
